@@ -85,8 +85,8 @@
 	
         <distributionManagement>
   <snapshotRepository>
-    <id>nexus</id>
-    <url>http://13.229.65.69:8081/nexus/content/repositories/snapshots</url>
+    <id>artifactory</id>
+	<url>http://54.169.28.236:8081/artifactory/INGFAV_BANK</url>
   </snapshotRepository>
 </distributionManagement>
 
