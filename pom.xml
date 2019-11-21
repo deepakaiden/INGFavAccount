@@ -16,6 +16,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		<sonar.host.url>http://54.169.159.91:9000</sonar.host.url>
 	</properties>
 
 	<dependencies>
@@ -85,8 +86,8 @@
 	
         <distributionManagement>
   <snapshotRepository>
-    <id>artifactory</id>
-	<url>http://54.169.28.236:8081/artifactory/INGFAV_BANK</url>
+    <id>nexus</id>
+	<url>http://54.169.159.91:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
